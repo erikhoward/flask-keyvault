@@ -48,7 +48,7 @@ Questions, comments or improvements, please create an issue on [Github](https://
 To suggest a change to the code or documentation, please create a new pull request on GitHub. Also, please squash multiple commits into a single commit in your pull request by rebasing onto the master branch.
 
 ## License
-Flask-KeyVault is licensed under the [MIT](LICENSE).
+Flask-KeyVault is licensed under the [MIT](LICENSE) license.
 
 ## Contact
 Erik Howard [erikhoward@protonmail.com](mailto:erikhoward@protonmail.com), [@erik_howard](https://www.twitter.com/erik_howard).
