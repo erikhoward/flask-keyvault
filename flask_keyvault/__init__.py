@@ -2,7 +2,7 @@
 """
     Flask-KeyVault
     :author: Erik Howard <erikhoward@protonmail.com>
-    :license: TBD
+    :license: MIT
     -------------------
 
     Allows reading of Azure Key Vault secrets for Flask applications.
