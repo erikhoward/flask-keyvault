@@ -49,7 +49,7 @@ class KeyVault(object):
             self.init_app(app)
 
     def init_app(self, app):
-        """Init the Flask_AzureKeyVault extension"""
+        """Init the Flask_KeyVault extension"""
         if self.client_id is None:
             self.client_id = app.config.get("AZURE_CLIENT_ID", '')
         if self.secret is None:
