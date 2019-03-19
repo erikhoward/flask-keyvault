@@ -14,7 +14,7 @@ import os
 
 from flask import Flask
 
-from flask_keyvault import AzureKeyVault
+from flask_keyvault import KeyVault
 from flask_keyvault.exceptions import KeyVaultAuthenticationError
 
 demo = Flask(__name__)
@@ -25,7 +25,7 @@ demo.config.update(
     AZURE_TENANT = os.getenv('AZURE_TENANT', 'YOUR-AZURE-TENANT')
 )
 
-keyvault = AzureKeyVault()
+keyvault = KeyVault()
 keyvault.init_app(demo)
 
 key_vault_url = 'https://mykeyvault.vault.azure.net/'
