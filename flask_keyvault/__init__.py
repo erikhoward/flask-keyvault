@@ -83,7 +83,7 @@ class KeyVault(object):
         """
 
         credentials = None
-        if "APPSETTING_WEBSITE_SITE_NAME" in os.environ:
+        if os.getenv("MSI_ENDPOINT"):
             credentials = MSIAuthentication(
                 resource=self.AUTH_RESOURCE
             )
