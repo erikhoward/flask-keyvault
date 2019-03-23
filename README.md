@@ -51,4 +51,6 @@ To suggest a change to the code or documentation, please create a new pull reque
 Flask-KeyVault is licensed under the [MIT](LICENSE) license.
 
 ## Contact
-Erik Howard [@erik_howard](https://www.twitter.com/erik_howard).
+Home: [www.erikhoward.net](https://www.erikhoward.net)
+
+Twitter: [@erik_howard](https://www.twitter.com/erik_howard)
