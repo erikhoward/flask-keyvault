@@ -83,7 +83,7 @@ class KeyVault(object):
         """
 
         credentials = None
-        if os.getenv("MSI_ENDPOINT"):
+        if os.getenv("MSI_ENDPOINT") and os.getenv("MSI_SECRET"):
             credentials = MSIAuthentication(
                 resource=self.AUTH_RESOURCE
             )
