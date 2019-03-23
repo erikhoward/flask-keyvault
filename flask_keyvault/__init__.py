@@ -107,3 +107,8 @@ class KeyVault(object):
 
     def set(self, vault_url, secret_name, secret_value):
         self.client.set_secret(vault_url, secret_name, secret_value)
+
+    def list(self, vault_url, max_results=None):
+        result_bundle_list = self.client.get_secrets(
+            vault_url, max_results)
+        return result_bundle_list
