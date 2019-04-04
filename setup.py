@@ -11,10 +11,11 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
+exec((HERE / "flask_keyvault/version.py").read_text())
 
 setup(
     name='Flask-KeyVault',
-    version=__import__('flask_keyvault').__version__,
+    version=__version__,
     url='https://github.com/erikhoward/flask-keyvault',
     license='MIT',
     author='Erik Howard',
